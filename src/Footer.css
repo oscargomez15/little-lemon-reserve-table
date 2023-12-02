@@ -1,0 +1,39 @@
+:root{
+    --cardTitle-fontSize: 18px;
+    --paragraph-fontSize: 16px;
+    --title-fontSize: 40px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(180, 148, 3);
+}
+
+.footer-info-container{
+    display: flex;
+    gap: 10rem;
+}
+
+.footer-info-container ul{
+    list-style: none;
+}
+
+.footer-info-container ul li:first-of-type{
+    font-size: 1.23em;
+    font-family: "Markazi", sans-serif;
+    font-weight: bold;
+}
+
+.footer-info-container a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-info-container a:hover{
+    color: rgb(250, 250, 250);
+}

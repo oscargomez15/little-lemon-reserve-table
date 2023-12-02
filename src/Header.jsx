@@ -8,12 +8,12 @@ export const Header = () => {
         <img src={logo} alt="little-lemon-lego" />
         <nav>
             <ul>
-                <li> <a href="#"> HOME </a> </li>
-                <li> <a href="#"> ABOUT </a> </li>
-                <li> <a href="#">MENU</a> </li>
-                <li> <a href="#">RESERVATIONS</a> </li>
-                <li> <a href="#">ORDER</a> </li>
-                <li> <a href="#">LOGIN</a> </li>
+                <li> <a href="#"> Home </a> </li>
+                <li> <a href="#"> About </a> </li>
+                <li> <a href="#">Menu</a> </li>
+                <li> <a href="#">Reservations</a> </li>
+                <li> <a href="#">Order</a> </li>
+                <li> <a href="#">Login</a> </li>
             </ul>
         </nav>
     </header>

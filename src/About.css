@@ -1,0 +1,28 @@
+:root{
+    --cardTitle-fontSize: 18px;
+    --paragraph-fontSize: 1.5rem;
+    --title-fontSize: 40px;
+}
+
+.about-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 15rem;
+    padding: 5rem 0;
+}
+
+.about-text h2{
+    font-size: var(--title-fontSize);
+    font-family: "Markazi", sans-serif;
+}
+
+.about-text p{
+    margin-top: 2rem;
+    font-size: var(--paragraph-fontSize);
+}
+
+.about-image img{
+    border-radius:15px
+}

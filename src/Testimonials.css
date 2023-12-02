@@ -1,0 +1,42 @@
+.testimonials-container{
+    background-color: white;
+    margin-top: 5rem;
+}
+
+.testimonials-wrapper{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+    color: #495E57;
+
+}
+
+.testimonials-wrapper h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Markazi", sans-serif;
+}
+
+.testimonials-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials-card img{
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.testimonials-card p{
+    margin-top: 1.5rem;
+}
+
+.cardsContainer{
+    display: flex;
+    gap: 10rem;
+    margin-top: 3rem;
+}
