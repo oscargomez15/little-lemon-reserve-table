@@ -1,0 +1,82 @@
+*{
+    font-family: "Karla", sans-serif;
+}
+:root{
+    --primary-color: rgb(73,94,87);
+    --primary-color-1: #F4CE14;
+    --secondary-color: #EE9972;
+    --secondary-color-1:#FBDABB;
+}
+
+body{
+    background-color: var(--primary-color-1);
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: auto;
+    margin: 5rem 0;
+}
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15rem;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.hero-info h1{
+    font-family: Markazi, sans-serif;
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.hero-info h2{
+    color: var(--primary-color);
+}
+
+.hero-info p{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.hero-info button{
+    padding: .8rem 1.5rem ;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    transition: all .3s;
+}
+
+.hero-info button:hover{
+    background-color: rgb(35, 44, 41);
+    cursor: pointer;
+}
+
+.hero-image{
+    padding: 6rem 0;
+}
+
+.hero-image img{
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: 50px -50px rgba(244, 207, 21, 40%);
+}
+
+.image-shadow{
+    height: 100%;
+    width: 100%;
+    margin-left: 10px;
+    background-color:#bb9f14;
+}

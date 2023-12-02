@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: rgb(73,94,87);
+    --primary-color-1: #F4CE14;
+    --secondary-color: #EE9972;
+    --secondary-color-1:#FBDABB;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    margin: auto;
+    padding: 1rem 0;
+    width: 70%;
+    border-radius: 0 0 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+header img{
+    height: 75px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 2rem;
+    font-family: "Markazi", sans-serif;
+    font-size: 1.5rem;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+    color: rgb(99, 99, 99);
+    content: "";
+
+}
